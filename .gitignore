@@ -1,0 +1,10 @@
+node_modules/
+main.js
+style.css
+.vscode
+.cache
+__pycache__
+
+output/python
+
+.coverage

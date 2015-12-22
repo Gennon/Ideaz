@@ -1,0 +1,36 @@
+{
+  "name": "ideaz",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/test*.js  --compilers js:babel-core/register --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-plugin-syntax-class-properties": "^6.1.18",
+    "babel-plugin-transform-class-properties": "^6.2.2",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "babelify": "*",
+    "browserify": "*",
+    "chai": "^3.4.1",
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-react": "*",
+    "gulp-sass": "*",
+    "gulp-util": "*",
+    "gulp-watch": "*",
+    "jsdom": "^7.2.1",
+    "mocha": "^2.3.4",
+    "mocha-jsdom": "^1.0.0",
+    "node-notifier": "*",
+    "react": "*",
+    "react-addons-test-utils": "^0.14.3",
+    "react-bootstrap": "*",
+    "react-dom": "*",
+    "vinyl-source-stream": "*",
+    "watchify": "*"
+  }
+}
