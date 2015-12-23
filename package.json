@@ -5,8 +5,21 @@
   "scripts": {
     "test": "mocha tests/**/test*.js  --compilers js:babel-core/register --recursive"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gennon/Ideaz.git"
+  },
+  "keywords": [
+    "project",
+    "idea",
+    "organize"
+  ],
+  "author": "Gennon",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gennon/Ideaz/issues"
+  },
+  "homepage": "https://github.com/Gennon/Ideaz#readme",
   "dependencies": {},
   "devDependencies": {
     "babel-plugin-syntax-class-properties": "^6.1.18",
@@ -16,6 +29,7 @@
     "babelify": "*",
     "browserify": "*",
     "chai": "^3.4.1",
+    "chai-spies": "^0.7.1",
     "gulp": "*",
     "gulp-concat": "*",
     "gulp-react": "*",
