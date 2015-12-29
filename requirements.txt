@@ -1,6 +1,8 @@
 coverage==4.0.3
 Flask==0.10.1
 Flask-Script==2.0.5
+Flask-SQLAlchemy==2.1
+gunicorn==19.4.1
 itsdangerous==0.24
 Jinja2==2.8
 MarkupSafe==0.23
@@ -13,5 +15,6 @@ pytest-selenium==1.1
 pytest-variables==1.3
 requests==2.9.0
 selenium==2.48.0
+SQLAlchemy==1.0.11
 Werkzeug==0.11.3
 wheel==0.24.0

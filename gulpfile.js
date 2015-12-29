@@ -32,19 +32,19 @@ var notify = function(error) {
   notifier.notify({title: title, message: message, wait: true});
 };
 
-var bundler = watchify(browserify({
-  entries: ['./app/js/app.jsx'],
-  extensions: ['.jsx'],
-  debug: true,
-  cache: {},
-  packageCache: {},
-  fullPaths: true
-  })
-  .transform('babelify', { 
-      presets: ['es2015', 'react'], 
-      plugins: ["syntax-class-properties", "transform-class-properties"]
-    })
-);
+var bundler = browserify({
+    entries: ['./app/js/app.jsx'],
+    extensions: ['.jsx'],
+    debug: true,
+    cache: {},
+    packageCache: {},
+    fullPaths: true
+})
+.transform('babelify', { 
+    presets: ['es2015', 'react'], 
+    plugins: ["syntax-class-properties", "transform-class-properties"]
+});
+
 
 function bundle() {
   return bundler
